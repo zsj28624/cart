@@ -1,0 +1,17 @@
+<!--pages/details/details.wxml-->
+<view class="container">
+  <van-image width="100%" fit="widthFix" src="{{imgURL}}" custom-class="block"/>
+  <van-tabs active="{{ active }}" bind:change="onChange">
+    <van-tab title="标签 1" name="{{1}}">
+      <view class="gradient-text-one">
+        123456
+      </view>
+    </van-tab>
+    <van-tab title="标签 2" name="{{2}}">
+      <view class="gradient-text-one">
+        abcdefg
+      </view>
+    </van-tab>
+  </van-tabs>
+
+</view>

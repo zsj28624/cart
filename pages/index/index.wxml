@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="container">
+  <van-tabs 
+    active="{{ active }}" 
+    custom-class="tabs-border"
+    bind:change="tabsChange">
+    <van-tab title="标签1" name="a">
+    </van-tab>
+    <van-tab title="标签2" name="b">
+    </van-tab>
+    <van-tab title="标签3" name="c">
+    </van-tab>
+    <van-tab title="标签4" name="d">
+    </van-tab>
+    <van-tab title="标签5" name="e">
+    </van-tab>
+    <van-tab title="标签6" name="f">
+    </van-tab>
+  </van-tabs>
+  <!-- <van-image src="/static/images/{{img}}.jpg" fit="heightFix" height="400rpx" custom-class="img-border"/> -->
+  <van-grid column-num="4" icon-size="100rpx" custom-class="marginB" clickable>
+    <van-grid-item 
+      icon="{{item.img}}" 
+      text="{{item.text}}" 
+      wx:for="{{ grid }}" 
+      url="/pages/details/details?url={{item.img}}"
+    />
+  </van-grid>
+  <van-cell-group custom-class="marginB">
+    <van-cell title="单元格" value="内容" />
+    <van-cell title="单元格" value="内容" label="描述信息" border="{{ false }}" />
+  </van-cell-group>
+   <van-grid column-num="2" icon-size="300rpx" clickable square>
+    <van-grid-item 
+      icon="{{item.img}}" 
+      wx:for="{{ grid }}" 
+      url="/pages/details/details?url={{item.img}}"
+    />
+  </van-grid>
+</view>

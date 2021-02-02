@@ -1,0 +1,8 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" 
+    xmlns:x="urn:schemas-microsoft-com:office:excel" 
+    xmlns="http://www.w3.org/TR/REC-html40">
+    <head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet>
+      <x:Name>Sheet1</x:Name>
+      <x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet>
+      </x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]-->
+      </head><body><table><tr><td>名称</td><td>检查结果</td><td>实例ID</td></tr><tr><td>公共卫生间 3076	</td><td>未找到公共卫生间的门	</td><td>2981933	</td></tr><tr><td>公共卫生间 3178	</td><td>未找到公共卫生间的门	</td><td>2981934	</td></tr><tr><td>公共卫生间 3184	</td><td>未找到公共卫生间的门	</td><td>2981935	</td></tr><tr><td>公共卫生间 3193	</td><td>未找到公共卫生间的门	</td><td>2981936	</td></tr></table></body></html>

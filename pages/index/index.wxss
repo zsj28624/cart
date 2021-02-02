@@ -1,0 +1,7 @@
+/**index.wxss**/
+.tabs-border{
+  border-bottom:1px solid #ccc;
+}
+.marginB{
+  margin-bottom: 14rpx;
+}

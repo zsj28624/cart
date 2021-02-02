@@ -1,0 +1,12 @@
+/* pages/details/details.wxss */
+.block{
+  vertical-align: middle;
+}
+.gradient-text-one{
+  font-size: 100rpx;
+  font-weight: bold;
+  background: linear-gradient(to top, red, blue);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent
+}
